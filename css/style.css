@@ -1,0 +1,194 @@
+@font-face{
+	font-family: 'Philosopher';
+	font-style:normal;
+	font-weight: 400;
+	src:local('Philosopher'),url('../fonts/Philosopher.woff') format('woff')
+}
+
+body,ul,ol,li,h1,h2,h3,h4,h5,h6,input,p{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "Philosopher","微软雅黑"
+}
+div{
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+/*section1*/
+#fullpage .section{
+	height: 631px;
+	width: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#fullpage .section:nth-child(1){
+	background-image: url(../img/index_section_bg_1.jpg);
+	
+}
+#fullpage .section:nth-child(2){
+	background-image: url(../img/index_section_bg_2.jpg);
+	
+}
+#fullpage .section:nth-child(3){
+	background-image: url(../img/index_section_bg_5.jpg);
+	
+}
+#fullpage .section:nth-child(4){
+	background-image: url(../img/index_section_bg_1.jpg);
+	
+}
+#fullpage .section:nth-child(5){
+	background-image: url(../img/index_section_bg_8.png);
+	
+}
+#fullpage .section:nth-child(6){
+	background-image: url(../img/index_section_bg_1.jpg);
+	
+}
+#fullpage .section:nth-child(7){
+	background-image: url(../img/index_section_bg_1.jpg);
+	
+}
+#fullpage .section:nth-child(1) h1{
+	background-image: url(../img/logo_kibey.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 181px;
+	height: 44px;
+	position: absolute;
+	top: 5%;
+	left: 2.5%;
+	font:0/0 a;
+}
+#fullpage .section:nth-child(1) .title{
+	width: 430px;
+	height: 220px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin: -110px 142px 0 0;
+}
+#fullpage .section:nth-child(1) .title h2{
+	display: block;
+	width: 430px;
+	height: 194px;
+	background-image: url(../img/index_title_sprites.png);
+	background-repeat: no-repeat;
+	font: 0/0 a;
+}
+#fullpage .section:nth-child(1) .title a{
+	width: 192px;
+	height: 26px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: url(../img/index_sprites.png);
+	background-position: 9px -77px;
+	background-repeat: no-repeat;
+	font:0/0 a;
+}
+#fullpage .section:nth-child(1) .section_1_1{
+	width: 1050px;
+	height: 414px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -207px;
+	margin-left: -104px;
+	background-image: url(../img/index_motion_sprites.png);
+	background-repeat: no-repeat;
+}
+
+/*section2*/
+#fullpage .section:nth-child(2) .nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 52px;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	text-align: center;
+}
+#fullpage .section:nth-child(2) .nav ul{
+	display: inline-block;
+}
+#fullpage .section:nth-child(2) .nav ul li{
+	float: left;
+	height: 52px;
+	font-size: 16px;
+	margin: 0 24px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+#fullpage .section:nth-child(2) .nav ul li a{
+	padding: 0 12px;
+	color: white;
+	text-decoration: none;
+	line-height: 52px;
+	font-weight: 600;
+}
+.srction2-content-fixte{
+	position: absolute;
+	top: 22%;
+	width: 100%;
+	margin: 0 auto;
+}
+.srction2-content:before{
+	content: '';
+	display: inline-block;
+	clear: both;
+	height: 123px;
+}
+.srction2-content{
+	margin: 0 auto;
+	width:514px;
+}
+.srction2-content h2{
+	width:136px;
+	height: 123px;
+	float: left;
+	background-image: url(../img/index_title_sprites.png); 
+	background-repeat: no-repeat;
+	background-position: 0 -300px;
+	font:0/0 a;
+}
+.srction2-content div{
+	float: right;
+	width: 346px;
+	font-size: 13px;
+	margin-top: 20px;
+	text-align: left;
+}
+#fullpage .section:nth-child(2) .srction2-1{
+	width: 268px;
+	height:267px;
+	position: absolute;
+	top: 100%;
+	right:50%;
+	margin-right: 360px;
+	background-image: url(../img/index_motion_sprites.png);
+	background-repeat: no-repeat;
+	background-position: 0 -500px;
+}
+#fullpage .section:nth-child(2) .srction2-2{
+	width: 59px;
+	height: 59px;
+	position: absolute;
+	bottom: 100%;
+	left: 87.2%;
+	background-image: url(../img/index_motion_sprites.png);
+	background-repeat: no-repeat;
+	background-position: 0 -820px;
+}
+
+/*响应式*/
+@media(max-width: 1024px){
+	#fullpage .section:nth-child(2) .srction2-1{
+		margin-right: 260px;
+	}
+}
