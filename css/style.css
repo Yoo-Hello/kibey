@@ -43,11 +43,11 @@ div{
 	
 }
 #fullpage .section:nth-child(5){
-	background-image: url(../img/index_section_bg_8.png);
+	background-image: url(../img/index_section_bg_3.jpg);
 	
 }
 #fullpage .section:nth-child(6){
-	background-image: url(../img/index_section_bg_1.jpg);
+	background-image: url(../img/index_section_bg_8.png);
 	
 }
 #fullpage .section:nth-child(7){
@@ -185,7 +185,448 @@ div{
 	background-repeat: no-repeat;
 	background-position: 0 -820px;
 }
+#fullpage .section:nth-child(2) .srction2-brand{
+	position: absolute;
+	bottom: 22%;
+	width: 100%;
 
+}
+#fullpage .section:nth-child(2) .srction2-brand h3{
+	display: block;
+	width: 111px;
+	height: 55px;
+	padding-top: 7px;
+	font-size: 12px;
+	color: rgba(255,255,255,0.6);
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -120px;
+	margin: 0 auto;
+	line-height: 18px;
+}
+#fullpage .section:nth-child(2) .srction2-brand ul{
+	width: 224px;
+	height: 52px;
+	margin: 24px auto 0;
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -200px;
+}
+#fullpage .section:nth-child(2) .srction2-brand ul li:nth-child(1){
+	margin-right: 49px;
+	float: left;
+}
+#fullpage .section:nth-child(2) .srction2-brand ul li:nth-child(2){
+	float: right;
+}
+#fullpage .section:nth-child(2) .srction2-brand ul li:nth-child(1) a{
+	display: block;
+	width: 92px;
+	height: 52px;
+	
+}
+#fullpage .section:nth-child(2) .srction2-brand ul li:nth-child(2) a{
+	display: block;
+	width: 83px;
+	height: 52px;
+
+}
+/* section3 */
+.section3-1{
+	width: 458px;
+	height: 331px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: url(../img/index_motion_sprites.png);
+	background-position: 0 -2660px;
+}
+.section3-2{
+	width: 458px;
+	height: 331px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-image: url(../img/index_motion_sprites.png);
+	background-position: right -2660px;
+}
+.section3-h3{
+	font:0/0 a;
+	width: 564px;
+	height: 316px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	margin-top: -218px;
+	margin-left: -427px;
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -550px;
+}
+.section3-appdown{ 
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -213px;
+	z-index: 2;
+}
+.section3-appdown ul{
+	width: 230px;
+	height: 269px;
+	position: absolute;
+	right: 50%;
+	margin-right: -413px;
+	background-image: url(../img/index_sprites.png);
+	background-position: -564px -550px;
+}
+.section3-appdown ul li a{
+	display: block;
+	width: 230px;
+	height: 67px;
+}
+.section3-appdown ul li:nth-child(2) a{
+	margin-top: 16px;
+}
+.section3-appdown ul li:nth-child(3) a{
+	height: 49px;
+	margin-top: 70px;
+}
+
+/* section4 */
+.section4,.section4 ul{
+	width: 100%;
+	height: 100%;
+}
+.section4 ul li{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.section4-li1{
+	background-image: url(../img/index_section_bg_6_1.jpg);
+}
+.section4-li2{
+	background-image: url(../img/index_section_bg_6_2.jpg);
+}
+.section4-li3{
+	background:#2c2c2c;
+}
+.section4-li4{
+	background-image: url(../img/index_section_bg_6_4.jpg);
+}
+.section4-li5{
+	background: #dc5353;
+}
+.section4-li1 div{
+	width: 79.8611%;
+	padding-bottom: 118.4027%;
+	position: absolute;
+	top: 10%;
+	left: 10.4166%; 
+	background-image: url(../img/motion_6_1.png);
+	background-size: 100%;
+}
+.section4-li2 div:nth-child(1){
+	width: 36.111%;
+	padding-bottom: 36.4583%;
+	position: absolute;
+	top: 40%;
+	left: 45.13888%;
+	background-image: url(../img/motion_6_2_1.png);
+	background-size: 100%;
+	z-index: 3;
+}
+.section4-li2 div:nth-child(2){
+	width: 97.9166%;
+	padding-bottom: 82.9821%;
+	position: absolute;
+	bottom: 27%;
+	left: 0;
+	background-image: url(../img/motion_6_2_2.png);
+	background-size: 100%;
+}
+.section4-bag{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/motion_6_3.png);
+	background-size: 100%;
+	background-position: 0 -200px;
+}
+.section4-bag>div{
+	width: 100%;
+	position: absolute;
+	top: 16.8%;
+}
+.section4-bag h3{
+	width: 105px;
+	height: 51px;
+	display: block;
+	margin:0 auto;
+	font:0/0 a;
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -960px;
+}
+.section4-bag>div>div{
+  width: 204px;
+  height: 114px;
+  margin: 90px auto 0;
+  background-image: url(../img/index_title_sprites.png);
+  background-position: 0 -580px;
+}
+.section4-bag>div>div>p{
+	font: 0/0 a;
+}
+.section4-li4-1{
+	width: 100%;
+	padding-bottom: 142.3611%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: url(../img/motion_6_4.png);
+	background-size: 100%;
+}
+.section4-li5-1{
+	width: 213.5416%;
+	padding-bottom: 269.4444%;
+	position: absolute;
+	bottom: 0;
+	left: -33%;
+	background-image: url(../img/motion_6_5.png);
+	background-position: ;
+	background-size:100%;
+}
+/* section5 */
+.section5-title{
+	width: 100%;
+	position: absolute;
+	top: 6.5155%;
+}
+.section5-title>div{
+	width: 452px;
+	margin: 0 auto;
+}
+.section5-title>div h3{
+	width: 193px;
+	height: 54px;
+	background-image: url(../img/index_title_sprites.png);
+	background-position: 0 -440px;
+	font:0/0 a;
+	margin: 0 auto;
+}
+.section5-title>div p{
+	display: block;
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 150%;
+}
+.section5-list{
+	width: 100%;
+	position: absolute;
+	bottom: 12%;
+}
+.section5-list ul{
+	width: 100%;
+	min-width: 980px;
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 3;
+}
+.section5-list ul:after{
+	display: table;
+	content: " ";
+	line-height: 0;
+	clear: both;
+}
+.section5-list ul li{
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 18%;
+}
+.section5-photo{
+	width: 100%;
+}
+.section5-photo span{
+	display: block;
+	width: 132px;
+	height: 133px;
+	margin: 0 auto;
+	background-size: 100%;
+}
+.section5-name{
+	font-size: 20px;
+	font-weight: 400;
+	margin: 20px 0 8px;
+}
+.section5-position{
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.section5-content{
+	font-size: 12px;
+	text-align: left;
+	line-height: 150%;
+	margin-top: 20px;
+}
+.section5-list ul li:nth-child(1) .section5-photo span{
+	background-image: url(../img/avatar_liu.png);
+}
+.section5-list ul li:nth-child(2) .section5-photo span{
+	background-image: url(../img/avatar_luo.png);
+}
+.section5-list ul li:nth-child(3) .section5-photo span{
+	background-image: url(../img/avatar_xue.png);
+}
+.section5-list ul li:nth-child(4) .section5-photo span{
+	background-image: url(../img/avatar_jp.png);
+}
+.section5-list ul li:nth-child(5) .section5-photo span{
+	background-image: url(../img/avatar_hong.png);
+}
+.section5-1{
+	position: absolute;
+	right: 50%;
+	bottom: 25%;
+	width: 93px;
+	height: 92px;
+	margin-right: 660px;
+	background-image:url(../img/index_motion_sprites.png);
+	background-position: 0 -920px;
+}
+.section5-2{
+	position: absolute;
+	top: 20%;
+	right: 50%;
+	margin-right: 239px;
+	width: 65px;
+	height: 64px;
+	background-image:url(../img/index_motion_sprites.png);
+	background-position: 0 -1040px;
+}
+.section5-3{
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	margin-left: 459px;
+	width: 70px;
+	height: 62px;
+	background-image:url(../img/index_motion_sprites.png);
+	background-position: 0 -1120px;
+}
+/*section6*/
+.section6-title{
+	font:0/0 a;
+	position: absolute;
+	top: 8.5%;
+	left: 5%;
+	width: 136px;
+	height: 123px;
+	background-image: url(../img/index_title_sprites.png);
+	background-position: 0 -860px;
+}
+.section6-table{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -220px;
+	margin-left: -360px;
+	width: 638px; 
+}
+.section6-li{
+	position: relative;
+}
+.section6-li:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.section6-li h3{
+	font-size: 14px;
+	width: 130px;
+	height: 19px;
+	display: block;
+	padding: 6px 20px;
+	text-align: left;
+	float: left;
+	position: absolute;
+	top: 50%;
+	
+}
+.section6-li1 h3{
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -1230px;
+	margin-top: -6%;
+}
+.section6-li2 h3{
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -1280px;
+	margin-top: -2%;
+}
+.section6-li3 h3{
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -1280px;
+	margin-top: -2%;
+}
+.section6-li1>div{
+	float: right;
+	margin: 4px 0 50px;
+}
+.section6-li1 div>div{
+	margin-right: 52px;
+	float: left;
+	font-size: 14px;
+}
+.section6-li1 div>div>div{
+	width: 167px;
+	height: 166px;
+	margin-bottom: 12px;
+	float: none;
+	margin-right: 0;
+}
+.section6-li1 div>div:nth-child(1)>div{
+	background-image: url(../img/index_sprites.png);
+	background-position: 0 -1330px;
+}
+.section6-li1 div>div:nth-child(2)>div{
+	background-image: url(../img/index_sprites.png);
+	background-position: 400px -1330px;
+}
+.section6-li2 div{
+	float: right;
+	margin-bottom: 50px;
+
+}
+.section6-li2 div span{
+	display: block;
+	width: 345px;
+	height: 110px;
+	margin-right: 90px;
+	background-image: url(../img/index_sprites_2.png);
+	background-position: 0 -1720px;
+}
+.section6-li3 div{
+	float: right;
+	margin-right: 245px;
+	background-image: url(../img/index_sprites_2.png);
+	background-position: 0 -1520px;
+}
+.section6-li3 div span{
+	display: block;
+	float: left;
+	width: 66px;
+	height: 26px;
+	margin-right: 28px;
+	margin-top: 4px;
+}
+.section6-li3 div span a{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
 /*响应式*/
 @media(max-width: 1024px){
 	#fullpage .section:nth-child(2) .srction2-1{
